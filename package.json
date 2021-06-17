@@ -11,5 +11,8 @@
     "url": ""
   },
   "author": "Chad Zhao",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
 }
