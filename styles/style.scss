@@ -1,2 +1,19 @@
 @import "variables";
 
+
+.navbar-brand {
+    color: red;
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.nav-link {
+    color: yellow;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: black;
+    background-color: white;
+}

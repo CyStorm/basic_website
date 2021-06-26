@@ -11464,4 +11464,22 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.navbar-brand {
+  color: red;
+}
+
+.navbar-brand:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav-link {
+  color: yellow;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: black;
+  background-color: white;
+}
 /*# sourceMappingURL=style.css.map */
