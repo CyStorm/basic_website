@@ -11490,19 +11490,33 @@ img.portrait {
   margin-right: auto;
 }
 
-.home-container {
+#home-container {
   background-image: url("../images/storm_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-.projects-container {
+#projects-container {
   background-image: -webkit-gradient(linear, left top, right top, from(#1640d8), to(#26c9c3));
   background-image: linear-gradient(to right, #1640d8, #26c9c3);
 }
 
+#about-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.bg-gradient-center {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1640d8), to(#26c9c3));
+  background-image: linear-gradient(#1640d8, #26c9c3);
+}
+
 span {
   color: #f7a10c;
+}
+
+h1, .h1 {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
