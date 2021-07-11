@@ -11,12 +11,12 @@
 }
 
 .nav-link {
-    color: $gm-orange;
+    color: $navbar-textcolor;
 }
 
 .nav-link:hover, .nav-link:focus {
-    color: $gm-orange;
-    background-color: $secondary;
+    color: $navbar-textcolor-hover;
+    background-image: linear-gradient(to bottom, $navbar-background, #115acd)
 }
 
 img.portrait {
@@ -25,15 +25,19 @@ img.portrait {
     margin-right: auto;
 }
 
+#main-navbar {
+    background-color: $navbar-background;
+}
+
 #home-container {
-    background-image: $storm-background;
+    background-image: $planet-background;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 #projects-container {
-    background-image: linear-gradient(to right, $primary, $secondary);
+    background-image: linear-gradient(to right, #112f54, $secondary);
 }
 
 #about-container {
@@ -46,9 +50,9 @@ img.portrait {
 }
 
 span {
-    color: $gm-orange;
+    color: $main-textcolor;
 }
 
 h1 {
-    color: white;
+    color: $main-textcolor;
 }

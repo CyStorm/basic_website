@@ -11476,12 +11476,13 @@ fieldset:disabled .btn {
 }
 
 .nav-link {
-  color: #f7a10c;
+  color: #afe8f8;
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #f7a10c;
-  background-color: #26c9c3;
+  color: #f6feff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#232e37), to(#115acd));
+  background-image: linear-gradient(to bottom, #232e37, #115acd);
 }
 
 img.portrait {
@@ -11490,16 +11491,20 @@ img.portrait {
   margin-right: auto;
 }
 
+#main-navbar {
+  background-color: #232e37;
+}
+
 #home-container {
-  background-image: url("../images/storm_bg.jpg");
+  background-image: url("../images/planet_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 #projects-container {
-  background-image: -webkit-gradient(linear, left top, right top, from(#1640d8), to(#26c9c3));
-  background-image: linear-gradient(to right, #1640d8, #26c9c3);
+  background-image: -webkit-gradient(linear, left top, right top, from(#112f54), to(#26c9c3));
+  background-image: linear-gradient(to right, #112f54, #26c9c3);
 }
 
 #about-container {
@@ -11513,10 +11518,10 @@ img.portrait {
 }
 
 span {
-  color: #f7a10c;
+  color: #c8e5fb;
 }
 
 h1, .h1 {
-  color: white;
+  color: #c8e5fb;
 }
 /*# sourceMappingURL=style.css.map */
