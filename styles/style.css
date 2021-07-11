@@ -11519,6 +11519,8 @@ img.contact-logo {
 }
 
 .about-container {
+  padding: 10px;
+  margin: 10px;
   border-color: #0f3f64;
   border-width: 5px;
   border-style: double;
