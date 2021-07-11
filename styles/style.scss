@@ -51,7 +51,7 @@ img.contact-logo {
 }
 
 .about-container {
-    border-color: $cystorm;
+    border-color: #0f3f64;
     border-width: 5px;
     border-style: double;
     background: rgba(15, 25, 27, 0.8);
@@ -73,10 +73,10 @@ img.contact-logo {
     background-image: linear-gradient(to bottom, $navbar-background, #115acd);
 }
 
-span {
+span, p {
     color: $main-textcolor;
 }
 
-h1 {
+h1, h5 {
     color: $main-textcolor;
 }
