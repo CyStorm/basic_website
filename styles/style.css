@@ -11528,6 +11528,7 @@ img.contact-logo {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0f191b), to(#0f4d7d));
   background-image: linear-gradient(to bottom, #0f191b, #0f4d7d);
   color: #c8e5fb;
+  width: 18rem;
 }
 
 .project-button {
