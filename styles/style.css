@@ -11472,7 +11472,8 @@ fieldset:disabled .btn {
 
 .navbar-brand:hover {
   color: #f7a10c;
-  background-color: #26c9c3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#232e37), to(#115acd));
+  background-image: linear-gradient(to bottom, #232e37, #115acd);
 }
 
 .nav-link {
@@ -11496,6 +11497,12 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 img.portrait {
@@ -11531,7 +11538,7 @@ img.contact-logo {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0f191b), to(#0f4d7d));
   background-image: linear-gradient(to bottom, #0f191b, #0f4d7d);
   color: #c8e5fb;
-  width: 18rem;
+  width: 19rem;
 }
 
 .project-button {
