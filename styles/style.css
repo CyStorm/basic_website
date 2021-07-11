@@ -11485,14 +11485,42 @@ fieldset:disabled .btn {
   background-image: linear-gradient(to bottom, #232e37, #115acd);
 }
 
+#main-navbar {
+  background-color: #232e37;
+}
+
+#main-wrapper {
+  background-image: url("../images/planet_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 img.portrait {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#main-navbar {
-  background-color: #232e37;
+a.contact-link {
+  display: inline-block;
+}
+
+img.contact-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 64px;
+}
+
+.about-container {
+  border-color: #7084dc;
+  border-width: 5px;
+  border-style: double;
+  background: rgba(15, 25, 27, 0.8);
 }
 
 .project-card {
@@ -11510,13 +11538,6 @@ img.portrait {
   color: #f6feff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#232e37), to(#115acd));
   background-image: linear-gradient(to bottom, #232e37, #115acd);
-}
-
-#main-wrapper {
-  background-image: url("../images/planet_bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 span {

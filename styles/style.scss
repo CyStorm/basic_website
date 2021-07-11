@@ -19,25 +19,45 @@
     background-image: linear-gradient(to bottom, $navbar-background, #115acd);
 }
 
-img.portrait {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #main-navbar {
     background-color: $navbar-background;
 }
 
+#main-wrapper{
+    background-image: $planet-background;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
-// #projects-container {
-//     background-image: linear-gradient(to right, #112f54, $secondary);
-// }
+img.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-// #about-container {
-//     padding-top: 5px;
-//     padding-bottom: 5px;
-// }
+a.contact-link {
+    display: inline-block;
+}
+
+img.contact-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 64px;
+}
+
+.about-container {
+    border-color: $cystorm;
+    border-width: 5px;
+    border-style: double;
+    background: rgba(15, 25, 27, 0.8);
+    // opacity: 0.6;
+}
+
 .project-card {
     background-image: linear-gradient(to bottom, #0f191b, #0f4d7d);
     color: $main-textcolor;
@@ -51,13 +71,6 @@ img.portrait {
 .project-button:hover {
     color: $navbar-textcolor-hover;
     background-image: linear-gradient(to bottom, $navbar-background, #115acd);
-}
-
-#main-wrapper{
-    background-image: $planet-background;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
 }
 
 span {
