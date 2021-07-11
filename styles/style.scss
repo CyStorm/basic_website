@@ -16,7 +16,7 @@
 
 .nav-link:hover, .nav-link:focus {
     color: $navbar-textcolor-hover;
-    background-image: linear-gradient(to bottom, $navbar-background, #115acd)
+    background-image: linear-gradient(to bottom, $navbar-background, #115acd);
 }
 
 img.portrait {
@@ -29,24 +29,35 @@ img.portrait {
     background-color: $navbar-background;
 }
 
-#home-container {
+
+// #projects-container {
+//     background-image: linear-gradient(to right, #112f54, $secondary);
+// }
+
+// #about-container {
+//     padding-top: 5px;
+//     padding-bottom: 5px;
+// }
+.project-card {
+    background-image: linear-gradient(to bottom, #0f191b, #0f4d7d);
+    color: $main-textcolor;
+}
+
+.project-button {
+    background-color: $navbar-background;
+    color: $main-textcolor;
+}
+
+.project-button:hover {
+    color: $navbar-textcolor-hover;
+    background-image: linear-gradient(to bottom, $navbar-background, #115acd);
+}
+
+#main-wrapper{
     background-image: $planet-background;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-}
-
-#projects-container {
-    background-image: linear-gradient(to right, #112f54, $secondary);
-}
-
-#about-container {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.bg-gradient-center {
-    background-image: linear-gradient($primary, $secondary);
 }
 
 span {

@@ -11495,26 +11495,28 @@ img.portrait {
   background-color: #232e37;
 }
 
-#home-container {
+.project-card {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0f191b), to(#0f4d7d));
+  background-image: linear-gradient(to bottom, #0f191b, #0f4d7d);
+  color: #c8e5fb;
+}
+
+.project-button {
+  background-color: #232e37;
+  color: #c8e5fb;
+}
+
+.project-button:hover {
+  color: #f6feff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#232e37), to(#115acd));
+  background-image: linear-gradient(to bottom, #232e37, #115acd);
+}
+
+#main-wrapper {
   background-image: url("../images/planet_bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
-
-#projects-container {
-  background-image: -webkit-gradient(linear, left top, right top, from(#112f54), to(#26c9c3));
-  background-image: linear-gradient(to right, #112f54, #26c9c3);
-}
-
-#about-container {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.bg-gradient-center {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1640d8), to(#26c9c3));
-  background-image: linear-gradient(#1640d8, #26c9c3);
 }
 
 span {
