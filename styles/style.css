@@ -11488,6 +11488,7 @@ fieldset:disabled .btn {
 
 #main-navbar {
   background-color: #232e37;
+  max-width: 100%;
 }
 
 #main-wrapper {
