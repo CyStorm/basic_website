@@ -12,6 +12,7 @@
 
 .nav-link {
     color: $navbar-textcolor;
+    font-family: $main-font;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -75,8 +76,10 @@ img.contact-logo {
 
 span, p {
     color: $main-textcolor;
+    font-family: $main-font;
 }
 
 h1, h5 {
     color: $main-textcolor;
+    font-family: $main-font;
 }

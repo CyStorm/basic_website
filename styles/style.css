@@ -11477,6 +11477,7 @@ fieldset:disabled .btn {
 
 .nav-link {
   color: #afe8f8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -11542,9 +11543,11 @@ img.contact-logo {
 
 span, p {
   color: #c8e5fb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1, .h1, h5, .h5 {
   color: #c8e5fb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
