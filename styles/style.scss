@@ -26,7 +26,7 @@
 }
 
 #main-wrapper{
-    background-image: $planet-background;
+    background-image: $space-background;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -64,7 +64,7 @@ img.contact-logo {
     border-color: #0f3f64;
     border-width: 5px;
     border-style: double;
-    background: rgba(15, 25, 27, 0.8);
+    background: rgba(15, 25, 27, 0.6);
 }
 
 .project-card {
