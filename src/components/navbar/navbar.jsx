@@ -15,7 +15,9 @@ class Navbar extends React.Component {
                     <NavItem displayText="Contact"></NavItem>
                 </div>
                 <div className="navbar-right">
-                    
+                    <NavItem displayText="Icon"></NavItem>
+                    <NavItem displayText="Icon"></NavItem>
+                    <NavItem displayText="Icon"></NavItem>
                 </div>
             </div>
         );

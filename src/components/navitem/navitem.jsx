@@ -6,6 +6,7 @@ class NavItem extends React.Component {
         return (
             <div className="navitem">
                 <a href="#home">{this.props.displayText}</a>
+                {/* <p>{this.props.displayText}</p> */}
             </div>
         )
     }

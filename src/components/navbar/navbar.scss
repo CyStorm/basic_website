@@ -3,19 +3,25 @@
 .navbar {
     background-color: $main-color;
     display: flex;
-    justify-items: center;
-    text-align: center;
     position: fixed;
     top: 0px;
     right: 0px;
     width: 100%;
     height: 50px;
+}
 
-    .navbar-left {
-        background-color: blue;
-    }
+.navbar-right {
+    flex-direction: row-reverse;
+    align-items: center;
+    display: flex;
+    flex: 50%;
+    background-color: orange;
+}
 
-    .navbar-right {
-        background-color: orange;
-    }
+.navbar-left {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex: 50%;
+    background-color: blue;
 }
