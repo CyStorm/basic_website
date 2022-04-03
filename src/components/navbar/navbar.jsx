@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.scss"
 
-import NavItem from "../navitem/navitem";
+import NavItem from "../navitem/navItem";
 
 class Navbar extends React.Component {
     render() {

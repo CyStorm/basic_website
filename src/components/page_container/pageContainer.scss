@@ -1,0 +1,18 @@
+@import "../../global.scss";
+
+.page-container {
+    background-color: bisque;
+    width: 100%;
+    height: calc(100vh - $navbar-height);
+    position: relative;
+    top: $navbar-height;
+    z-index: -1;
+}
+
+.blue {
+    background-color: teal;
+}
+
+.yellow {
+    background-color: yellow;
+}

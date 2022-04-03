@@ -1,5 +1,5 @@
 import React from "react";
-import "./navitem.scss"
+import "./navItem.scss"
 
 class NavItem extends React.Component {
     render() {
