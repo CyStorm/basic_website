@@ -3,6 +3,16 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: GoldMan;
+    src: url(../fonts/Goldman-Regular.ttf);
+}
+
+@font-face {
+    font-family: Jaldi;
+    src: url(../fonts/Jaldi-Regular.ttf);
+}
+
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Jaldi;
 }
