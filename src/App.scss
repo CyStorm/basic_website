@@ -13,6 +13,10 @@
     src: url(../fonts/Jaldi-Regular.ttf);
 }
 
-body {
+body{
     font-family: Jaldi;
+}
+
+html {
+    scroll-snap-type: y mandatory;
 }
