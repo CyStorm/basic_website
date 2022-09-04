@@ -4,7 +4,7 @@ import "./navItem.scss"
 class NavItem extends React.Component {
     render() {
         return (
-            <a href="#home" className="navitem">
+            <a href={this.props.link} className="navitem">
                 {this.props.displayText}
             </a>
         )

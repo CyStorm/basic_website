@@ -8,16 +8,16 @@ class Navbar extends React.Component {
         return (
             <div className="navbar">
                 <div className="navbar-left">
-                    <NavItem displayText="Landing"></NavItem>
-                    <NavItem displayText="Intro"></NavItem>
-                    <NavItem displayText="Projects"></NavItem>
-                    <NavItem displayText="Experience"></NavItem>
-                    <NavItem displayText="Contact"></NavItem>
+                    <NavItem link="#landing" displayText="Landing"></NavItem>
+                    <NavItem link="#intro" displayText="Intro"></NavItem>
+                    <NavItem link="#projects" displayText="Projects"></NavItem>
+                    <NavItem link="#experience" displayText="Experience"></NavItem>
+                    <NavItem link="#contact" displayText="Contact"></NavItem>
                 </div>
                 <div className="navbar-right">
-                    <NavItem displayText="Icon"></NavItem>
-                    <NavItem displayText="Icon"></NavItem>
-                    <NavItem displayText="Icon"></NavItem>
+                    <NavItem link="#" displayText="Icon"></NavItem>
+                    <NavItem link="#" displayText="Icon"></NavItem>
+                    <NavItem link="#" displayText="Icon"></NavItem>
                 </div>
             </div>
         );

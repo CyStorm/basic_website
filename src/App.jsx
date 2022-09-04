@@ -6,13 +6,13 @@ function App() {
     return (
         <div className="App">
             <Navbar/>
-            <PageContainer bgc="blue">
+            <PageContainer id="landing" bgc="blue">
                 <h1>adssdsdasdasd</h1>
             </PageContainer>
-            <PageContainer bgc="yellow"></PageContainer>
-            <PageContainer></PageContainer>
-            <PageContainer bgc="blue"></PageContainer>
-            <PageContainer bgc="yellow"></PageContainer>
+            <PageContainer id="intro" bgc="yellow"></PageContainer>
+            <PageContainer id="projects" ></PageContainer>
+            <PageContainer id="experience" bgc="blue"></PageContainer>
+            <PageContainer id="contact" bgc="yellow"></PageContainer>
         </div>
     );
 }

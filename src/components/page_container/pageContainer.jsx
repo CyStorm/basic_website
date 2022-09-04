@@ -4,7 +4,7 @@ import "./pageContainer.scss"
 class PageContainer extends React.Component {
     render() {
         return (
-            <div className={`page-container ${this.props.bgc}`}>
+            <div id={this.props.id} className={`page-container ${this.props.bgc}`}>
                 {this.props.children}
             </div>
         )
