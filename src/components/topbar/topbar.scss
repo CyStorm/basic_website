@@ -1,6 +1,6 @@
 @import "../../global.scss";
 
-.navbar {
+.topbar {
     background-color: $main-color;
     display: flex;
     position: fixed;
@@ -11,7 +11,7 @@
     z-index: 2;
 }
 
-.navbar-right {
+.topbar-right {
     flex-direction: row-reverse;
     align-items: center;
     display: flex;
@@ -19,10 +19,10 @@
     background-color: orange;
 }
 
-.navbar-left {
+.topbar-left {
     flex-direction: row;
     align-items: center;
     display: flex;
     flex: 50%;
-    background-color: blue;
+    background-color: rgb(39, 84, 231);
 }
