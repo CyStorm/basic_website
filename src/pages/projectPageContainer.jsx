@@ -3,12 +3,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import ProjectCard from "../components/project_card/projectCard";
+import "./pageLayouts.scss"
 
 class ProjectPageContainer extends React.Component {
     render() {
         return (
-            <Container>
-                <Row>
+            <Container id="project-page">
+                <Row className="outer-row">
+                    <h1>Projects</h1>
+                </Row>
+                <Row className="outer-row">
                     <Col>
                         <ProjectCard>
 
@@ -22,7 +26,7 @@ class ProjectPageContainer extends React.Component {
                     </Col>
                 </Row>
 
-                <Row>
+                <Row className="outer-row">
                     <Col>
                         <ProjectCard>
                         
@@ -30,7 +34,7 @@ class ProjectPageContainer extends React.Component {
                     </Col>
                     <Col>
                         <ProjectCard>
-                            
+
                         </ProjectCard>
                     </Col>
                 </Row>
