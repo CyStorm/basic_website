@@ -2,3 +2,15 @@ $main-color: grey;
 $secondary-color: red;
 $hover-color: yellow;
 $navbar-height: 50px;
+
+.bgc1 {
+    background-color: rgb(14, 55, 167);
+}
+
+.bgc2 {
+    background-color: rgb(7, 84, 252);
+}
+
+.bgc3 {
+    background-color: $main-color;
+}

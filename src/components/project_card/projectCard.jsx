@@ -6,16 +6,17 @@ import Card from 'react-bootstrap/Card';
 class ProjectCard extends React.Component {
     render() {
         return (
-            <Card>
-            <Card.Header>Featured</Card.Header>
-            <Card.Body>
-              <Card.Title>Special title treatment</Card.Title>
-              <Card.Text>
-                With supporting text below as a natural lead-in to additional content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
+            <Card className="project-card">
+                <Card.Img variant="top" src={this.props.img} alt="project image here"/>
+                <Card.Header>{this.props.title}</Card.Header>
+                <Card.Body>
+                    {/* <Card.Title>Special title treatment</Card.Title> */}
+                    <Card.Text>
+                        {this.props.desc}
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>
         )
     }
 }
