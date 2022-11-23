@@ -9,31 +9,35 @@ import ProjectPageContainer from "./pages/projectPageContainer";
 import IntroPageContainer from "./pages/introPageContainer";
 import LandingPageContainer from "./pages/landingPageContainer";
 import ExperiencePageContainer from "./pages/experiencePageContainer";
+import CustomNavbar from "./components/custom_navbar/customNavbar";
+
 
 function App() {
     return (
         <div className="App">
-            <Topbar></Topbar>
+            {/* <Topbar></Topbar> */}
+            {/* <CustomNavbar></CustomNavbar> */}
+            {/* <PageContainer id="landing" bgc="bgc1"> */}
+            <div>
 
-            <PageContainer id="landing" bgc="bgc1">
                 <LandingPageContainer></LandingPageContainer>
-                <h1>adssdsdasdasd</h1>
-            </PageContainer>
+            </div>
+            {/* </PageContainer> */}
 
-            <PageContainer id="intro" bgc="bgc2">
+            {/* <PageContainer id="intro" bgc="bgc2"> */}
                 <IntroPageContainer></IntroPageContainer>
-            </PageContainer>
+            {/* </PageContainer> */}
 
-            <PageContainer id="projects" bgc="bgc1">
+            {/* <PageContainer id="projects" bgc="bgc1"> */}
                 <ProjectPageContainer></ProjectPageContainer>
-            </PageContainer>
+            {/* </PageContainer> */}
 
-            <PageContainer id="experience" bgc="bgc2">
+            {/* <PageContainer id="experience" bgc="bgc2"> */}
                 <ExperiencePageContainer></ExperiencePageContainer>
-            </PageContainer>
+            {/* </PageContainer>
             <PageContainer id="contact" bgc="bgc1">
 
-            </PageContainer>
+            </PageContainer> */}
         </div>
     );
 }

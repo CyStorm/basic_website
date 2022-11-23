@@ -10,7 +10,7 @@ import {landingPage} from "../assets/texts.js"
 class LandingPageContainer extends React.Component {
     render() {
         return (
-            <Container id="landing-page" className="bgc2">
+            <Container id="landing-page">
                 <Row>
                     <Col>
                         <Image id="portrait-img" fluid rounded src={portrait} alt="profile image here"></Image>

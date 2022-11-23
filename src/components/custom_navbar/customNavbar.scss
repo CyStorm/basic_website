@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+.custom-navbar {
+    background-color: $main-color;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 100%;
+    height: $navbar-height;
+    z-index: 2;
+}
+
+#responsive-navbar-nav {
+    background-color: $main-color;
+}
